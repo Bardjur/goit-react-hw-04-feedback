@@ -1,0 +1,8 @@
+.btn {
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
