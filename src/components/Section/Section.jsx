@@ -6,7 +6,7 @@ class Section extends Component {
     const { title, children } = this.props;
     return (
       <section className={css.section}>
-        <h2>{title}</h2>
+        {title && <h2>{title}</h2>}
         { children }
       </section>
     )
