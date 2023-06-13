@@ -3,6 +3,7 @@ import FeedbackOptions from './FeedbackOptions';
 import Notification from './Notification';
 import Statistics from './Statistics';
 import Section from './Section';
+
 function App() {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
